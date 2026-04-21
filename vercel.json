@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/portfolio.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/portfolio.html"
+    }
+  ]
+}
